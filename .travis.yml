@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+deploy:
+  provider: s3
+  access_key_id: AKIAJYL4APCMADL56T4Q
+  secret_access_key:
+    secure: hXefYHV/DQjwCGlZ75ydGkaZgiWrlvHetwlQ8amHXLLbzMShQAbjlXtsJmHUR3hTLBrf2GxSlI6Gz+wpJNhsMekQ4u5Tp028enfctEte9UWSDDEmNgtOd9lMnsyUVCpShsJN5twYoo50K2yx6TG/Va6ZjL0HdVSfFjUOODJwg5I=
+  bucket: deploy-weeia
+  upload-dir: demo
+  acl: public_read
+  on:
+    repo: radamus/demoCI

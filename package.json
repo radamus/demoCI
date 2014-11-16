@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/radamus/demoCI/issues"
   },
-  "homepage": "https://github.com/radamus/demoCI"
+  "homepage": "https://github.com/radamus/demoCI",
+  "dependencies": {
+    "webs-weeia": "^0.2.2"
+  }
 }
