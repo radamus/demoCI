@@ -1,0 +1,19 @@
+{
+  "name": "demoCI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radamus/demoCI"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radamus/demoCI/issues"
+  },
+  "homepage": "https://github.com/radamus/demoCI"
+}
