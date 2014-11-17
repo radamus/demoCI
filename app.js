@@ -1,6 +1,7 @@
+var helpers = require("./helpers");
 var ACTIONS_FOLDER = "./actions/";
 var ACTIONS_CONFIG_FILE = __dirname + "/actions.json";
-var PORT = Number(process.env.PORT || 8080);
+var PORT = 8080;
 
 
 
